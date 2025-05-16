@@ -138,6 +138,40 @@ void generar_matriz_1() {
     };
     print_matriz(matriz, 3);
 }
+
+double calcular_promedio(std::vector<int> vec) {
+    double promedio = 0;
+    for (auto& item: vec) {
+        promedio += item;
+    }
+    return promedio / vec.size();
+}
+
+std::vector<int> remover_repetidos(std::vector<int> vec) {
+    std::vector<int> result;
+    for (const auto& item: vec) {
+        if (std::find(result.begin(), result.end(), item) == result.end()) {
+            result.push_back(item);
+        }
+    }
+    return result;
+}
+
+void generar_pares(std::vector<int> vec) {
+    auto promedio = calcular_promedio(vec);
+    for (auto& a: vec) {
+        for (auto& b: vec) {
+            if (a + b > promedio) {
+                std::cout << a << " " << b << " ";
+            }
+        }
+    }
+}
+
+void ejercicio_1() {
+
+}
+
 int main() {
     // borrar_valores_1();
     // borrar_valores_2();
