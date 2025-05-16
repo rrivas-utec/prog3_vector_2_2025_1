@@ -1,0 +1,3 @@
+C:/Users/rrivas/CLionProjects/prog3_vector_2_2025_1/cmake-build-debug/CMakeFiles/prog3_vector_2_2025_1.dir
+C:/Users/rrivas/CLionProjects/prog3_vector_2_2025_1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/rrivas/CLionProjects/prog3_vector_2_2025_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
